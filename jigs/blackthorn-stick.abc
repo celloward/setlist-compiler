@@ -1,0 +1,16 @@
+X:1
+T:The Blackthorn Stick
+C:Anonymous; arr. T. S. Macdonald
+M:6/8
+K:A
+%%staves { 1 2 }
+V:1
+e | "A"aga faf | ecA "D"BAF | "A"EAA "E"GAB | "A"cBA "E"B2 e |
+"A"aga baf | ecA "D"BAF | "A"EAA "E"GAB | "A"cAA A2 :|
+|: e | "D"fee "A"aee | "D"fee "A"aee | "D"fee agf | "A"edc "E"B2 e |
+"A"aga baf | ecA "D"BAF | "A"EAA "E"GAB | "A"cAA A2 :|]
+V:2
+z | "1"A,3 A,3 | A,3 "0"D3 | "1"A,3 "1"E3 | "0"A3 "1"E3 |
+    "0"A3 "1"A,3 | A,3 "0"D3 | "1"A,3 "1"E3 | "0"A3 "1"A,2 :|
+|: z | "0"D3 "1"A,3 | "0"D3 "1"A,3 | "0"D3 D3 | "0"A3 "1"E3 |
+    "0"A3 "1"A,3 | A,3 "0"D3 | "1"A,3 "1"E3 | "0"A3 "1"A,2 :|

@@ -1,0 +1,18 @@
+X:1
+T:Drummond Castle
+C:Anonymous; arr. T. S. Macdonald
+M:6/8
+L:1/8
+K:Am
+%%staves { 1 2 }
+V:1
+E | "Am"ABA a3 | age "G"g3 | "C"c2 c edc | "G"Bdg dBG |
+    "Am"ABA a3 | age "G"g3 | "C"ege "G"deg | edB "Am"A2 :|
+|: B | "C"c2 c cec | "G"d2 d ded | "C"c2 c edc | "G"Bdg dBG |
+    "C"c2 c edc | "G"deg "D"a2 g | "C"ege "G"deg | edB "Am"A2 :|]
+V:2
+L:1/8
+z | "1"A,3 A,3 | A,3 "0"G,3 | "3"C3 C3 | "0"G,3 G,3 |
+    "1"A,3 A,3 | A,3 "0"G,3 | "3"C3 "0"D3 | "1"E3 "1"A,2 :|
+|: z | "3"C3 C3 | "0"D3 D3 | "3"C3 C3 | "0"G,3 G,3 |
+       "3"C3 C3 | "0"G,3 "0"D3 | "3"C3 "0"D3 | "1"E3 "1"A,2 :|]

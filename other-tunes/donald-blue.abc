@@ -1,0 +1,18 @@
+X:1
+T: Donald Blue
+C: arr. T. S. Macdonald
+L: 1/8
+M: C|
+K: D 
+%%staves { 1 2 }
+V:1
+"D"(dB)A(F AF)A(B | dB)AF "A"E2 D2 | "D"(dB)A(F AF)Ad | "G"B2 BA B2 "A"c2 |
+"D"(dB)A(F AF)A(B | dB)AF "A"E2 D2 | "D"(dB)A(F AF)Ad | "G"B2 BA B2 "D"d2 ||
+"D"(AB)d(e fa)f(d | fa)f(d "G"ed) B2 | "D"(AB)d(e fa)fd | "G"B2 BA B2 "A"c2 |
+"D"(AB)d(e fa)f(d | fa)f(d "G"ed) B2 | "D"(AB)d(e fa)fd | "G"B2 BA B2 "D"d2 |]
+V:2
+L:1/4
+"0"D D2 D | D D "1"A, A, | "0"D D2 D | "0"G, G,2 "1"A, |
+"0"D D2 D | D D "1"A, A, | "0"D D2 D | "0"G, G,2 "0"D ||
+"0"[DA]2 [DA]2 | [DA]2 "0"[G,D]2 | "0"[DA]2 [DA]2 | "0"[G,D] [G,D]2 "1"A, |
+"0"[DA]2 [DA]2 | [DA]2 "0"[G,D]2 | "0"[DA]2 [DA]2 | [G,D] [G,D]2 "0"D |]

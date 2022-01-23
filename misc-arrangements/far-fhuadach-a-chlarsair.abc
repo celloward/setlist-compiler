@@ -1,0 +1,17 @@
+X:1
+T: Far-fhuadach a chlarsair
+L: 1/4
+M: 3/4
+K: Dmix =c
+V:1
+%%staves {1 2}
+d/>d/ | B c d | B>z d/>d/ | A2 d | e f e | d>z
+A/>A/ | d e f | f>z f/>f/ | {f}e d e | f2 e | d>z
+D/>D/ | F A f | f>z e/>e/ | d A c | B2 d | d>z
+A/>A/ | d e f | d>z B/>B/ | A F G | F2 E | D>z |]
+V:2 clef=bass middle=d
+L:1/4
+f | g a b | g2 g | f2 f | g a g | f2
+f/>f/ | f g a | [ad]2 d | A B c | d2 e | f2
+f/>e/ | d3 | d2 g | f e d | g2 b | [bg]2
+d/e/ | f a d' | d'2 [d'g] | d'3 & fde | d2 A | d2 |]

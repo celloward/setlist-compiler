@@ -9,7 +9,7 @@ class SettingService
 
   def initialize(yaml, output=nil)
     @yaml = YAML.safe_load(File.read(yaml), symbolize_names: true)
-    @output = output || 'intermediate.abc'
+    @output = output || '~intermediate.abc'
   end
 
   def perform

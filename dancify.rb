@@ -2,4 +2,9 @@
 
 require_relative './setting_service'
 
-SettingService.new(ARGV[0], ARGV[1]).perform
+setlist = ARGV[0]
+output = ARGV[1] || '~/intermediate.abc'
+
+SettingService.new(setlist, output).perform
+
+puts "Set created in #{output}"

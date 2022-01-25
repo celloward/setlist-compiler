@@ -1,4 +1,4 @@
-require './tune'
+require_relative './tune'
 class Set
   attr_reader :set, :last_page
 

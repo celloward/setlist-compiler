@@ -1,4 +1,4 @@
-require './set_parser'
+require_relative './set_parser'
 
 class SetListParser
   attr_reader :yaml

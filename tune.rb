@@ -1,4 +1,4 @@
-require './source_path'
+require_relative './source_path'
 
 class Tune
   attr_reader :source, :filename

@@ -1,4 +1,4 @@
-require './set'
+require_relative './set'
 
 class SetList
   attr_reader :parser

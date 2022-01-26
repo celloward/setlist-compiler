@@ -2,7 +2,7 @@
 
 require_relative '../lib/source/source_path'
 
-path = ARGV[0]
+path = ARGV[0].chomp
 s = SourcePath.new
 
 if path

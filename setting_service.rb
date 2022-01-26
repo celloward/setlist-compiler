@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'yaml'
-require_relative './set_list'
-require_relative './set_list_parser'
+require_relative './lib/set_list'
+require_relative './lib/parsers/set_list'
 
 class SettingService
   attr_reader :yaml, :output, :destination_path
@@ -14,7 +14,7 @@ class SettingService
 
   def perform
     File.open(destination_file, 'w') do |f|
-      set_list = SetList.new(SetListParser.new(yaml)).template
+      set_list = SetList.new(Parsers::SetList.new(yaml)).template
       f.puts(set_list)
     end
   end

@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative './setting_service'
+require_relative '../setting_service'
 
 setlist = ARGV[0]
 output = ARGV[1] || '~/intermediate.abc'

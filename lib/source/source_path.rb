@@ -1,15 +1,16 @@
 class SourcePath
-  attr_reader :full_path, :storage_path
+  attr_reader :full_path
 
   def initialize
-    @storage_path = '~/dancify/source_path'.freeze
+    @read_path = '~/dancify/lib/source/source_path'.freeze
+    @write_path = './source_path'.freeze
     @full_path = read_path
   end
 
   def save_path
     return unless full_path
 
-    File.open(storage_path, "w") do |f|
+    File.open(@write_path, "w") do |f|
       f.rewind
       f.puts(full_path)
       f.close
@@ -17,9 +18,9 @@ class SourcePath
   end
 
   def read_path
-    return unless File.exists?(File.expand_path(storage_path))
+    return unless File.exists?(File.expand_path(@read_path))
 
-    File.open(File.expand_path(storage_path), "r") do |f|
+    File.open(File.expand_path(@read_path), "r") do |f|
       f.rewind
       @full_path = f.read.chomp
     end

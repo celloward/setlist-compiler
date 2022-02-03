@@ -14,25 +14,19 @@ Also you need some abc files in a directory. For more info about the abc music n
 Aside from `git clone <etc.>` you should also
 
 ### Make script globally executable
-From terminal in repo `chmod +x ./compile-setlist.rb` and `chmod +x ./set-source-pathrb`
+From terminal in repo `chmod +x ./compile-setlist` and `chmod +x ./set-source-path`
 
 Then from root: `export PATH=$PATH:~/<path to compile-setlist>`
 
 ### Set your source directory
-This can be done either by running `set-source-path.rb <the/path/to/tunes>` or by directly editing the `lib/source/source_path` file, but be sure to use the absolute path so it can be found (i.e. prefix your path with `~/`)
-
-### Make an alias
-For ease of calling in your .bashrc or whatever:
-```sh
-alias compile-setlist='compile-setlist.rb'
-```
+This can be done either by running `set-source-path <the/path/to/tunes>` or by directly editing the `lib/source/source_path` file, but be sure to use the absolute path so it can be found (i.e. prefix your path with `~/`)
 
 ## Running the program
 Ensure that you have set your source directory from where tunes will be pulled. The files should be in .abc format. You can see examples of these files in the `samples/sample-tunes` folder in this repo.
 
 Create a .yml file along the lines of the `samples/sample.yml` in this repo.
 
-If you haven't aliased, run `compile-setlist.rb <path/to/yaml> <optional/output/filepath>`
+Run `compile-setlist <path/to/yaml> <optional/output/filepath>`
 
 If you don't specify a filepath and name, it will default to spitting out the resultant abc file in `~/intermediate.abc`
 
